@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: aqua;
+
+}
+
+.logo {
+    max-width: 5rem;
+
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.navbar-nav ml-auto {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+@media screen and (max-width: 550px)
+     /*.navbar-toggler {
+        display: block;
+}
+
+
